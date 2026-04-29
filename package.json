@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "eleventy --serve"
+    "serve": "eleventy --serve",
+    "build-ghpages": "eleventy --pathprefix=/network_engineer_vs_cybersecurity_engineer/"
   },
   "keywords": [],
   "author": "",
