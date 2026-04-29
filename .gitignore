@@ -2,3 +2,7 @@ _site/
 node_modules/
 *.kra
 *.*~
+
+# VitePress
+docs/.vitepress/dist
+docs/.vitepress/cache

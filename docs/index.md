@@ -1,14 +1,13 @@
 ---
-layout: mylayout.njk
 title: Network Engineer vs Cybersecurity Engineer
 ---
 
-# {{ title }}
+# {{ $frontmatter.title }}
 ## Network Engineer
 Network engineers are responsible for designing, building, and automating network infrastructures. These include local area networks (LANs), wide area networks (WANs), and intranets. Their goal is to ensure the connectivity of network systems.
 
 <figure>
-  <img src="images/network_engineer.jpg" alt="Cisco Engineer - Field Engineer" style="width:100%">
+  <img src="./images/network_engineer.jpg" alt="Cisco Engineer - Field Engineer">
   <figcaption>Image from <a href="https://www.fieldengineer.com/skills/what-is-a-network-engineer">Network Engineer - Field Engineer</a></figcaption>
 </figure>
 
@@ -30,7 +29,7 @@ Network engineers may share some responsibilities as network administrators. Net
 Cybersecurity engineers are responsible to build and maintain systems that are secure from cyberattacks.
 
 <figure>
-  <img src="images/cybersecurity_engineer.jpeg" alt="Cisco Engineer - Field Engineer" style="width:100%">
+  <img src="./images/cybersecurity_engineer.jpeg" alt="Cisco Engineer - Field Engineer">
   <figcaption>Image from <a href="https://www.fieldengineer.com/skills/who-is-a-cyber-security-engineer">Cyber Security Engineer - Field Engineer</a></figcaption>
 </figure>
 
@@ -69,3 +68,4 @@ You should be a Cybersecurity Engineer if you are interested in the practice of 
 - [Network+ - CompTIA](https://www.comptia.org/en-us/certifications/network/#career-path)
 - [Security+ - CompTIA](https://www.comptia.org/en-us/certifications/security/#career-path)
 - [CCNA - Cisco](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html)
+
