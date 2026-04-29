@@ -1,5 +1,6 @@
 import EleventyVitePlugin from "@11ty/eleventy-plugin-vite";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import { HtmlBasePlugin } from "@11ty/eleventy";
 
 export default function (eleventyConfig) {
     eleventyConfig.setInputDirectory("views");
@@ -9,4 +10,9 @@ export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("assets/*.png");
 	eleventyConfig.addPlugin(EleventyVitePlugin);
     eleventyConfig.addPlugin(eleventyImageTransformPlugin);
+    eleventyConfig.addPlugin(HtmlBasePlugin);
 };
+
+export const config = {
+	pathPrefix: "/network_engineer_vs_cybersecurity_engineer/",
+}
