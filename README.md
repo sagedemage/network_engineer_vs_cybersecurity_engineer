@@ -2,7 +2,7 @@
 
 An article on if you should be a Network Engineer or Cybersecurity Engineer.
 
-Read the guide at [Netstat Tutorial](https://sagedemage.github.io/network_engineer_vs_cybersecurity_engineer/).
+Read the guide at [Network Engineer vs Cybersecurity Engineer](https://sagedemage.github.io/network_engineer_vs_cybersecurity_engineer/).
 
 ## Commands
 
