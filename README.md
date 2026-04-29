@@ -2,12 +2,30 @@
 
 An article on if you should be a Network Engineer or Cybersecurity Engineer.
 
-Install dependencies
+Read the guide at [Netstat Tutorial](./docs/index.md).
+
+## Commands
+
+Install all dependencies
 ```
 pnpm install
 ```
 
-Run project
+Start the website
 ```
-pnpm serve
+pnpm dev
 ```
+
+Build the website
+```
+pnpm build
+```
+
+Preview the built website
+```
+pnpm preview
+```
+
+## Resources
+- [Motivation - pnpm](https://pnpm.io/motivation)
+- [Deploy Your VitePress Site - VitePress](https://vitepress.dev/guide/deploy)
