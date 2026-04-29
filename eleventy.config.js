@@ -10,9 +10,9 @@ export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("assets/*.png");
 	eleventyConfig.addPlugin(EleventyVitePlugin);
     eleventyConfig.addPlugin(eleventyImageTransformPlugin);
-    //eleventyConfig.addPlugin(HtmlBasePlugin);
+    eleventyConfig.addPlugin(HtmlBasePlugin);
 };
 
-/*export const config = {
+export const config = {
 	pathPrefix: "/network_engineer_vs_cybersecurity_engineer/",
-}*/
+}

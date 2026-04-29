@@ -44,7 +44,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
       - name: Build for GitHub Pages
-        run: pnpm build-ghpages
+        run: pnpm eleventy
       - name: Upload static files as artifact
         id: deployment
         uses: actions/upload-pages-artifact@v5
